@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>CSS Project</title>
+</head>
+<body>
+    <header>
+        <div id="topBarContainer" class="topBar">
+
+            <div class="currencyContainer">
+                <span class="topBar_currency">Currency : GBP</span>
+            </div>
+            
+            <ul class="topBar_register_SignIn_container">
+                <li class="topBar_register_SignIn_item">Register</li>
+                <li class="topBar_register_SignIn_item">Sign In</li>
+            </ul>
+
+            <div class="cartContainer">
+                <img src="images/cart.png" alt="">
+                <span class="cartContainer_empty">empty</span>
+            </div>
+        </div>
+
+        <div class="lookBookMainHeaderContainer">
+            <div class="mainHeader_topRowContainer">
+                <img src="images/logo.png" alt="" class="logo">
+                <div>
+                    <ul class="mainHeaderMenu">
+                        <li>MENS</li>
+                        <li>WOMENS</li>
+                        <li>THE BRANDS</li>
+                        <li>LOCAL STORES</li>
+                        <li>LOOK BOOK</li>
+                    </ul>
+
+                    <div class="inputContainer">
+                        <i class="fa fa-search searchIcon" aria-hidden="true"></i>
+                        <input type="text" placeholder="search" class="searchInput">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <div class="theBrand_main_container">
+        <div class="theBrand_slogan_container">
+            <p>THE BRAND</p>
+            <p>COMPANY SLOGAN GOES HERE</p>
+        </div>
+    </div> -->
+
+    <div class="theBrand_main_container_IGNORE">   
+        <img src="images/intro-product-view.jpg" alt="" class="theBrandHeaderSlogan">
+    </div>
+
+    <main class="productViewMain">
+        <div class="productViewMain_container">
+            <div class="productViewMain_sweatShirtContainer">
+                <div class="productViewMain_sweatShirtContainer_imgContainer">
+                    <img src="images/sweatshirt.jpg" alt="" class="productViewMain_sweatShirtImg">
+                </div>
+
+                <div class="productViewMain_sweatShirtContainer_productDetailsContainer">
+                    <span class="productDetailsContainer_productName">AVE CLASSIC SWEATSHIRT</span>
+                    <div class="reviewsAndShareContainer">
+                        <div class="starsContainer">
+                            <i class="fa fa-star yellowStar" aria-hidden="true"></i>
+                            <i class="fa fa-star yellowStar" aria-hidden="true"></i>
+                            <i class="fa fa-star yellowStar" aria-hidden="true"></i>
+                            <i class="fa fa-star yellowStar" aria-hidden="true"></i>
+                            <i class="fa fa-star grayStar" aria-hidden="true"></i>
+                        </div>
+
+                        <span>3 Review(s) | </span>
+                        <span>Add a Review | </span>
+                        <span>Share: </span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="pricesContainer">
+                        <span>107</span>
+                        <span>89.99</span>
+                    </div>
+
+                    <p class="productViewMain_avilabilty"><span tyle="font-weight: bold">AVILABILITY:</span> In stock</p>
+                    <p class="productViewMain_productCode"><span tyle="font-weight: bold">PRODUCT CODE:</span> #499577</p>
+                    <span style="font-weight: bold;">TAGS:</span> <span class="tags">Classic, Casual, V-neck, Loose</span>
+                    <p>      
+                        Lorem ipsum dolor sit amet. 
+                        Vix ex erat summo, odio postea impetus et mel. 
+                        Eos iriure reformidans ad. Est at sumo singulis.
+                        Lorem ipsum dolor sit amet. Eos iriure reformidans ad.
+                    </p>
+                    <ul>
+                        <li>Elasticated cuffs</li>
+                        <li>Casual fit</li>
+                        <li>100% Cotton</li>
+                        <li>Free shipping with 4 days delivery</li>
+                    </ul>
+
+                    <div class="colorSizeQty_container">
+                        <div class="colorSizeQty_labelsContainer">
+                            <label for="">COLOR</label>
+                            <label for="" class="sizeLabel">SIZE</label>
+                            <label for="" class="qtyLabel">QTY</label>
+                        </div>
+
+                        <div class="colorSizeQty_selectsContainer">
+                            <div class="selectColor">
+                                <span>Select Color</span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="selectSize">
+                                <span>Select Size</span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+
+                            <!-- <select name="" id="" class="selectBoxDesign">
+                                <option value="">Select Color</option>
+                            </select>
+
+                            <select name="" id="" class="selectBoxDesign">
+                                <option value="">Select Size</option>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </select> -->
+                            <input type="number" value="1">
+                        </div>
+                    </div>
+
+                    <div class="addButtons_container">
+                        <div class="addToCart">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <span>ADD TO CART</span>
+                        </div>
+
+                        <div class="addToLookbook">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>ADD TO LOOKBOOK</span>
+                        </div>
+                    </div>
+                    <div class="addToCompareContainer">
+                        <i class="fa fa-compress" aria-hidden="true"></i>
+                        <span class="addToCompare">ADD TO COMPARE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="productView_midPage_section">
+        <div class="productView_midPage_container">
+            <ul class="productView_midPageList">
+                <li>DESCRIPTION</li>
+                <li>VIDEO</li>
+                <li>SIZE & SPECS</li>
+                <li>DELIVERY & RETURNS</li>
+                <li>REVIEWS</li>
+            </ul>
+            <div class="productView_midPage_paragraph_container">
+                <span style="font-weight:bold;">Lorem ipsum dolor sit amet iriure reformidans ad</span>
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    Vix ex erat summo, odio postea impetus et mel.
+                    Eos iriure reformidans ad. Est at sumo singulis.
+                    Lorem ipsum dolor sit amet. Eos iriure reformidans ad.
+                    Lorem ipsum dolor sit amet.
+                    Vix ex erat summo, odio postea impetus et mel.
+                    Eos iriure reformidans ad. Est at sumo singulis.
+                    Lorem ipsum dolor sit amet. Eos iriure reformidans ad.
+                    Lorem ipsum dolor sit amet.
+                    Vix ex erat summo, odio postea impetus et mel.
+                    Eos iriure reformidans ad. Est at sumo singulis.
+                    Lorem ipsum dolor sit amet. Eos iriure reformidans ad.
+                </p>
+                <p>
+                    Mel ne utroque habemus, ei vis fabulas mediocrem periculis. 
+                    Mea volumus quaerendum scriptorem et, paulo simul consul eum an. 
+                    Nam iudico semper ne. Pro postea mandamus id, minimum partiendo nec et. 
+                    Vis id wisi apeirian honestatis, ad ius dicit nullam expetenda. Nihil tempor pericula at has.
+                    Mel ne utroque habemus, ei vis fabulas mediocrem periculis. 
+                    Mea volumus quaerendum scriptorem et, paulo simul consul eum an. 
+                    Nam iudico semper ne. Pro postea mandamus id, minimum partiendo nec et. 
+                    Vis id wisi apeirian honestatis, ad ius dicit nullam expetenda. Nihil tempor pericula at has.
+                    Mel ne utroque habemus, ei vis fabulas mediocrem periculis. 
+                    Mea volumus quaerendum scriptorem et, paulo simul consul eum an. 
+                </p>
+            </div>        
+        </div>
+        
+    </section>
+
+    <section class="home_LowerSection_Container">
+        <div class="home_LowerSection_listsContainer">
+            <ul>
+                <li class="listHeader">INFORMATION</li>
+                <li>The Brand</li>
+                <li>Local stores</li>
+                <li>Customer service</li>
+                <li>Privacy & cookies</li>
+                <li>Stire map</li>
+            </ul>
+            <ul>
+                <li class="listHeader">WHY BUY FORM US</li>
+                <li>Shipping & returns</li>
+                <li>Secure shopping</li>
+                <li>Testimonials</li>
+                <li>Award winning</li>
+                <li>Ethical trading</li>
+            </ul>
+            <ul>
+                <li class="listHeader">YOUR ACCOUNT</li>
+                <li>Sign in</li>
+                <li>Register</li>
+                <li>View cart</li>
+                <li>View your lookbook</li>
+                <li>Track an order</li>
+                <li>Update information</li>
+            </ul>
+            <ul>
+                <li class="listHeader">LOOKBOOK</li>
+                <li>Latest posts</li>
+                <li>Men's lookbook</li>
+                <li>Women's lookbook</li>
+                <li>Lookbooks RSS feed</li>
+                <li>View your lookbook</li>
+                <li>Delete your lookbook</li>
+            </ul>
+            <ul>
+                <li class="listHeader">CONTACT DETAILS</li>
+                <li>
+                    <span>Head Office.Avenue Fashion.</span><br>
+                    <span>180-182 Regent Street London.</span>
+                </li>
+                <li>Telephone: 0123-456-789</li>
+                <li>Email: support@yourwebsite.com</li>
+            </ul>                
+        </div>
+        <div class="home_banners">
+            <div class="home_awardWinner">
+                <div>
+                    <span>AWARD WINNER</span>
+                    <span>FASHION AWARDS 2016</span>
+                </div>
+            </div>
+            <div class="home_socialNetworks">
+                <div class="home_socialNetworks_iconsContainer">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <span class="footer_copyright">&copy 2016 Avenue Fashion &#8482</span>
+        
+        <div class="footer_designDevBy_container">
+            <span>Design by RobbyDesigns.com</span>
+            <span>Dev by Loremipsum.com</span>
+        </div>
+    </footer>
+
+</body>
+</html>
